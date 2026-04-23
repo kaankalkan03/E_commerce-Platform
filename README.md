@@ -1,9 +1,71 @@
 # E_commerce-Platform
-Designed a scalable relational schema for real-world e-commerce systems
-Designed a fully normalized relational database (up to 3NF) for an e-commerce platform
-Modeled entities including customers, products, orders, order items, suppliers, and reviews
-Established one-to-many relationships between core entities (e.g., Customer–Order, Order–OrderItem)
-Implemented primary and foreign key constraints to ensure referential integrity
-Developed SQL queries and structured data for simulating real-world transactions
-Created ER diagram to visualize system architecture and relationships
-Project documentation and schema available upon request
+
+##  Overview
+
+This project presents a fully designed relational database system for a real-world e-commerce platform.
+The system manages customers, products, orders, suppliers, and reviews while ensuring data integrity and scalability.
+
+
+
+## Database Design
+
+* Designed a fully normalized relational database (up to **Third Normal Form – 3NF**)
+* Eliminated redundancy and ensured consistency using normalization principles (1NF, 2NF, 3NF)
+* Implemented **primary keys** and **foreign keys** to maintain referential integrity
+
+
+
+## Entities
+
+The system includes the following core entities:
+
+* Customer
+* Product
+* Purchase (Order)
+* OrderItem
+* Supplier
+* Review
+
+
+## Relationships
+
+* One-to-many: Customer → Orders
+* One-to-many: Order → OrderItems
+* One-to-many: Product → OrderItems
+* One-to-many: Supplier → Products
+* One-to-many: Product → Reviews
+
+
+
+## Features
+
+* SQL-based schema design
+* Real-world transaction simulation
+* Structured data for testing and querying
+* Data integrity through relational constraints
+
+
+
+## ER Diagram
+
+The system architecture is visualized using an Entity-Relationship Diagram (ERD).
+<img width="676" height="608" alt="image" src="https://github.com/user-attachments/assets/45f3bcd5-850c-471e-8bd3-bb5896ebac5f" />
+
+
+
+## Technologies
+
+* SQL
+* Relational Database Design
+
+
+## Project Status
+
+* Completed as a database design and simulation project
+* Not deployed as a web application
+
+
+
+## Availability
+
+Full SQL scripts, ER diagram, and documentation are available in this repository.
